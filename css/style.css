@@ -1,0 +1,34 @@
+:root { /**crear variable**/
+    --Rosa: #FD7A84;
+    --Rosado: #FF6057;
+    --Verde: #8FC13C;
+
+
+}
+
+
+
+.Navegacion {
+    display: flex;
+    background-color: var(--Rosa);
+}
+
+.Logo {
+    margin-right: auto; /* Empuja el logo hacia la izquierda */
+}
+
+.Logo img {
+    height: 100px; /* Tamaño deseado */
+    width: auto; /* Para mantener la proporción de la imagen */
+    margin-right: 10px; /* Espacio opcional a la derecha de la imagen */
+}
+
+.Navegacion a {
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.titulo {
+    color: var(--Verde);
+}
