@@ -1,34 +1,124 @@
-:root { /**crear variable**/
-    --Rosa: #FD7A84;
-    --Rosado: #FF6057;
-    --Verde: #8FC13C;
-
-
+:root {
+    --Negro: #000000;
+    --Morado: #FF96F4;
+    --Blanco: #FFFFFF;
+    --Gris: #FDFDFD;
+    --ColorIg: #E1306C;
+    --ColorTiktok: #FF0050;
+    --ColorFacebook: #4267B2;
 }
-
 
 
 .Navegacion {
     display: flex;
-    background-color: var(--Rosa);
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: var(--Morado);
+}
+
+.Navegacion a:hover{
+    color: var(--Blanco);
 }
 
 .Logo {
-    margin-right: auto; /* Empuja el logo hacia la izquierda */
+    color: var(--Negro);
+    height: 100px; /* Ajuste de altura */
+    width: auto;
+    margin-left: -20px; /* Margen izquierdo negativo */
 }
 
-.Logo img {
-    height: 100px; /* Tamaño deseado */
-    width: auto; /* Para mantener la proporción de la imagen */
-    margin-right: 10px; /* Espacio opcional a la derecha de la imagen */
+ul {
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    width: 100%; /* Asegurar que ocupe todo el ancho */
+    text-align: center; /* Centrar elementos de la lista */
 }
 
-.Navegacion a {
-    align-items: center;
-    margin-right: 40px;
+ul li {
+    display: inline-block;
+    padding: 0px 130px; /* Ajuste de espaciado horizontal */
+}
 
+a {
+    color: var(--Negro);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.hero {
+    position: relative; /* Asegura que los elementos posicionados dentro de .hero sean relativos a este */
+    width: 100%;
+    overflow: hidden; /* Asegura que el video no sobresalga del contenedor */
+}
+
+.hero video {
+    width: 100%;
+    height: auto; /* Esto asegura que el video se redimensione correctamente */
+}
+
+.texto {
+    position: absolute;
+    top: 50%; /* Lo coloca en la mitad superior */
+    left: 50%; /* Lo coloca en el centro horizontal */
+    transform: translate(-50%, -50%); /* Lo ajusta vertical y horizontalmente al centro */
+    text-align: center; /* Alinear texto al centro */
+    color: white; /* Cambia el color del texto para que sea visible en el video */
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+.gif {
+    display: flex;
+    align-items: center; /* Alinear verticalmente los elementos */
+    background-color: var(--Gris);
+}
+
+.gif img {
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.textos {
+    margin-right: auto; /* Empuja los textos a la derecha */
+    text-align: center; /* Alinear el texto a la derecha */
 }
 
 .titulo {
-    color: var(--Verde);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 10px; /* Ajusta el espacio entre el título y el párrafo */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px; /* Ajusta el espacio entre el título y el párrafo */
+}
+
+.fin {
+    display: flex;
+    align-items: center;
+}
+
+.fin svg {
+    margin-right: 10px; /* Esto agrega un espacio entre el ícono y el texto si lo necesitas */
 }
