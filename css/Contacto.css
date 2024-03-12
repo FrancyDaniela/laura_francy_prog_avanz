@@ -114,6 +114,7 @@ redes {
 }
 
 .tik {
+    font-family: fantasy;
     color: var(--ColorTiktok);
 }
 .tik:hover {
