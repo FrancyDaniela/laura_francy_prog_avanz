@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+body{
+    background-image:url(../img/FondoPro.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.column-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.menu-heladeria{
+    color:#ffffff;
+}
