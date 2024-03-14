@@ -10,3 +10,16 @@ body{
     color: var(--Morado);
     margin-bottom: 10px; /* Ajusta el espacio entre el título y el párrafo */
 }
+.Navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: var(--Morado);
+}
+.Navegacion a:hover{
+    color: var(--Blanco);
+}

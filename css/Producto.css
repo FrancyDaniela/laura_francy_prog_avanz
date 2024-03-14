@@ -17,6 +17,24 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.menu-heladeria{
+.menu-heladeria1{
     color:#000000;
+    background-position: left;
+}
+.menu-heladeria2{
+    color:#000000;
+    background-position: right;
+}
+.Navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: var(--Morado);
+}
+.Navegacion a:hover{
+    color: var(--Blanco);
 }
