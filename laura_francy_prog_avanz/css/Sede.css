@@ -1,0 +1,23 @@
+.sede {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    width: 100%; /* Ancho completo */
+}
+.sede h1 {
+    margin-top: 32px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--Morado);
+    margin-bottom: 10px; /* Ajusta el espacio entre el título y el párrafo */
+}
+.p{
+    margin-top: 32px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--Morado);
+    margin-bottom: 10px; /* Ajusta el espacio entre el título y el párrafo */
+}

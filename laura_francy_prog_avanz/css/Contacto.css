@@ -1,0 +1,229 @@
+:root {
+    --Negro: #000000;
+    --Morado: #FF96F4;
+    --Blanco: #FFFFFF;
+    --Gris: #FDFDFD;
+    --ColorIg: #E1306C;
+    --ColorTiktok: #FF0050;
+    --ColorFacebook: #4267B2;
+    --Verde: #50FFEA;
+}
+
+*{
+    margin: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.Navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: var(--Morado);
+}
+
+.Navegacion a:hover{
+    color: var(--Blanco);
+}
+
+.Logo {
+    color: var(--Negro);
+    height: 100px; 
+    width: auto;
+    margin-left: -20px; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+    width: 100%; 
+    text-align: center; 
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 130px; 
+}
+
+a {
+    color: var(--Negro);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background:-webkit-gradient(linear,left bottom,right top,color-
+    stop(0%,rgba(255,0,255,0.5)),color-stop(100%,
+    rgba(30, 199, 229, 0.5)));
+    justify-content:first baseline;
+    align-items:center;
+    margin-left: 10%;
+}
+form{
+    display:flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--Morado) 0px 0px 50px;
+    border-radius: 10px;
+}
+input, textarea{
+    border:none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(178, 46, 249, 0.963);
+}
+input:focus,textarea:focus{
+    border-bottom-color: #E1306C ;
+}
+.btnMensaje{
+    border: none;
+    outline: none;
+    background-color: var(--ColorIg);
+    padding: 15px;
+    width: 200px;
+    color: var(--Morado);
+    border-radius: 2px;
+    box-shadow: var(--ColorIg) 0px 0px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.btnMensaje:hover{
+    background-color: var(--ColorIg);
+    color: var(--Negro);
+    transform: scale(1.05);
+    box-shadow: rgba(0, 255, 98, 0.92);
+}
+
+redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.redes0 {
+    margin-top: 32px;
+    font-family: "Chicle",serif;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: var(--Negro);
+    margin-bottom: 10px; 
+    
+}
+
+
+
+.redes {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.redes a{
+    margin: 0 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: var(--Blanco);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0);
+    font-size: 2.5rem;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); 
+}
+
+.tik {
+    font-family: fantasy;
+    color: var(--ColorTiktok);
+    
+}
+.tik:hover {
+    background: var(--ColorTiktok);
+    color: var(--Negro);
+    box-shadow: 0 0 5px var(--Gris),
+    0 0 25px var(--Gris),
+    0 0 50px var(--Gris),
+    0 0 200px var(--Gris);
+    
+}
+
+.ig {
+    color: var(--ColorIg);
+    
+}
+.ig:hover {
+    background: var(--ColorIg);
+    color: var(--Negro);
+    box-shadow: 0 0 5px var(--Gris),
+    0 0 25px var(--Gris),
+    0 0 50px var(--Gris),
+    0 0 200px var(--Gris);
+}
+
+
+.fa {
+    color: var(--ColorFacebook);
+}
+.fa:hover {
+    background: var(--ColorFacebook);
+    color: var(--Negro);
+    box-shadow: 0 0 5px var(--Gris),
+    0 0 25px var(--Gris),
+    0 0 50px var(--Gris),
+    0 0 200px var(--Gris);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px; 
+}
+.fin {
+    display: flex;
+    align-items: center;
+}
+
+.fin svg {
+    margin-right: 10px; 
+}
