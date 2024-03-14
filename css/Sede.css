@@ -10,6 +10,7 @@ body{
     background-image:url(../img/FondoPro2.jpg) ;
     background-size: cover;
     background-position: center;
+    font-family: "Lilita One", sans-serif;
 }
 .p{
     margin-top: 32px;
@@ -18,7 +19,7 @@ body{
     font-style: normal;
     font-size: 30px;
     color: var(--Morado);
-    margin-bottom: 10px; /* Ajusta el espacio entre el título y el párrafo */
+    margin-bottom: 10px; 
 }
 .Navegacion {
     display: flex;

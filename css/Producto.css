@@ -10,6 +10,7 @@ body{
     background-image:url(../img/FondoPro3.jpg) ;
     background-size: cover;
     background-position: center;
+    font-family: "Lilita One", sans-serif;
 }
 .wrap{
     max-width: 1200px;
