@@ -5,7 +5,7 @@
     font-size: 23px;
 }
 body{
-    background-image:url(../img/FondoPro.jpg) ;
+    background-image:url(../img/FondoPro3.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -18,5 +18,5 @@ body{
     grid-template-columns: repeat(2,1fr);
 }
 .menu-heladeria{
-    color:#ffffff;
+    color:#000000;
 }
